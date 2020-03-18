@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite">
+
+<parameter name= "platformName" value = "Android" />
+<parameter name= "deviceName" value = "Galaxy S8+" />
+
+<test name="Regresstion Test" preserve-order="false">
+    <classes>
+        <class name="Tests.LogIn_TC"/>
+    </classes>
+</test>
+</suite>
