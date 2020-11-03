@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="42a43a16-ce1f-44da-9beb-1ed26581cc89" name="Default Changelist" comment="" />
+    <list default="true" id="42a43a16-ce1f-44da-9beb-1ed26581cc89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Pages/RegistrationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/UserRegistrationTC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/BasicInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/GetaQuote.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/Login_Page.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Pages/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/LogIn_TC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/BasicInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/GetaQuote.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/Login_Page.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pages/UserInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/LogIn_TC.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,28 +39,28 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1V9TZpP9Lt6sz68WfQ0vnHlxzr4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="TestNG.LogIn_TC">
-    <configuration name="C:/Users/ahmed.hafez/IdeaProjects/Appiumm/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Appiumm" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LogIn_TC" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.UserRegistrationTC">
+    <configuration name="UserRegisterationTC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Appiumm" />
       <extension name="coverage">
         <pattern>
@@ -44,7 +69,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.LogIn_TC" />
+      <option name="MAIN_CLASS_NAME" value="Tests.UserRegisterationTC" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -52,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LogIn_TC.UserCanLoig" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Appiumm" />
+    <configuration name="UserRegisterationTC.UserCanLoig" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tests.*" />
@@ -61,7 +86,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.LogIn_TC" />
+      <option name="MAIN_CLASS_NAME" value="Tests.UserRegisterationTC" />
       <option name="METHOD_NAME" value="UserCanLoig" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -70,8 +95,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Register_TC" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Appiumm" />
+    <configuration name="UserRegistrationTC (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tests.*" />
@@ -79,7 +104,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.Register_TC" />
+      <option name="MAIN_CLASS_NAME" value="Tests.UserRegistrationTC" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -87,8 +112,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBase" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Appiumm" />
+    <configuration name="UserRegistrationTC" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Tests.*" />
@@ -96,8 +121,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Tests" />
-      <option name="MAIN_CLASS_NAME" value="Tests.TestBase" />
+      <option name="MAIN_CLASS_NAME" value="Tests.UserRegistrationTC" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistrationTC.UserCanRegister" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Appium" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.UserRegistrationTC" />
+      <option name="METHOD_NAME" value="UserCanRegister" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -106,26 +149,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LogIn_TC" />
-        <item itemvalue="TestNG.LogIn_TC.UserCanLoig" />
-        <item itemvalue="TestNG.C:/Users/ahmed.hafez/IdeaProjects/Appiumm/testng.xml" />
-        <item itemvalue="TestNG.Register_TC" />
-        <item itemvalue="TestNG.TestBase" />
+        <item itemvalue="TestNG.UserRegistrationTC" />
+        <item itemvalue="TestNG.UserRegistrationTC (1)" />
+        <item itemvalue="TestNG.UserRegistrationTC.UserCanRegister" />
+        <item itemvalue="TestNG.UserRegisterationTC.UserCanLoig" />
+        <item itemvalue="TestNG.UserRegisterationTC" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -140,64 +172,25 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2056" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1576733599450">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2056" y="274" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1576733599450" />
-    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser" timestamp="1581065652287">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599283466622">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="67" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1581065652287" />
-    <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580638895577">
-      <screen x="1366" y="0" width="1920" height="1040" />
-    </state>
-    <state x="2056" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1580638895577" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1581059763749">
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1599283466622" />
+    <state width="1323" height="343" key="GridCell.Tab.0.bottom" timestamp="1599479620533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1581059763749" />
-    <state width="1323" height="162" key="GridCell.Tab.0.bottom" timestamp="1584435208657">
+    <state width="1323" height="343" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1599479620533" />
+    <state width="1323" height="343" key="GridCell.Tab.0.center" timestamp="1599479620533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1584435208657" />
-    <state width="1877" height="501" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584431919368" />
-    <state width="1323" height="162" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1584432930816" />
-    <state width="1323" height="162" key="GridCell.Tab.0.center" timestamp="1584435208657">
+    <state width="1323" height="343" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1599479620533" />
+    <state width="1323" height="343" key="GridCell.Tab.0.left" timestamp="1599479620533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="162" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1584435208657" />
-    <state width="1877" height="501" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584431919368" />
-    <state width="1323" height="162" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1584432930816" />
-    <state width="1323" height="162" key="GridCell.Tab.0.left" timestamp="1584435208657">
+    <state width="1323" height="343" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1599479620533" />
+    <state width="1323" height="343" key="GridCell.Tab.0.right" timestamp="1599479620533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="162" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1584435208657" />
-    <state width="1877" height="501" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584431919368" />
-    <state width="1323" height="162" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1584432930816" />
-    <state width="1323" height="162" key="GridCell.Tab.0.right" timestamp="1584435208657">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state width="1323" height="162" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1584435208657" />
-    <state width="1877" height="501" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584431919368" />
-    <state width="1323" height="162" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1584432930816" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1581059768151">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1580712904510" />
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1581059768151" />
-    <state x="359" y="187" key="com.intellij.ide.util.TipDialog" timestamp="1584432812131">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="359" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1583131576887" />
-    <state x="1871" y="267" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1584428149760" />
-    <state x="359" y="187" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1584432812131" />
-    <state x="0" y="0" width="758" height="728" key="find.popup" timestamp="1582798624024">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="0" y="0" width="758" height="728" key="find.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1582798624024" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1576675858916">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576675858916" />
+    <state width="1323" height="343" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1599479620533" />
   </component>
 </project>
